@@ -233,7 +233,6 @@ mukesh@mukesh:~/Desktop/multiplefolder$
 
 **{A..Z}:** This is brace expansion, a feature in the shell that generates sequences.
 
-~~~
 
 ### Step8:-Remove content from the folder without removing folder
 
