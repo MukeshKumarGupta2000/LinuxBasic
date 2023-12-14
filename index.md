@@ -156,6 +156,8 @@ mukesh@mukesh:~/Desktop/Test/BasicLinuxCommand$ ls
 index.html
 mukesh@mukesh:~/Desktop/Test/BasicLinuxCommand$ 
 ~~~
+**touch:** This is the command used to create empty files.
+**index.html:** This is the argument or parameter passed to the **touch** command.
 
 ## Step6:-Remove multiple files with a single command
 
@@ -185,6 +187,12 @@ mukesh@mukesh:~/Desktop$ ls
 mukesh@mukesh:~/Desktop$ 
 mukesh@mukesh:~/Desktop$ 
 ~~~~
+**rm:** This is the remove command in Linux, used to delete files and directories.
+
+**-r:** This option stands for "recursive," and when used with rm, it allows the removal of directories and their contents.
+
+**multiplefile/:** This is the argument or parameter passed to the rm command. 
+
 
 
 ## Step7:-Create multiple folders(a-z) with a single command.
@@ -217,6 +225,13 @@ mukesh@mukesh:~/Desktop/multiplefolder$
 mukesh@mukesh:~/Desktop/multiplefolder$ ls
 A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z
 mukesh@mukesh:~/Desktop/multiplefolder$ 
+~~~
+
+**mkdir:** This is the command used to create directories.
+
+**/home/mukesh/Desktop/multiplefolder/:** This is the path to the parent directory where the new directories will be created.
+
+**{A..Z}:** This is brace expansion, a feature in the shell that generates sequences.
 
 ~~~
 
