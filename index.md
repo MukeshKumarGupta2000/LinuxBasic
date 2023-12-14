@@ -2,14 +2,20 @@
 ************************************************************************
 # Table of Contents
 
-[Create directory](#step-1--create-directory)
+* [Create directory](#step-1--create-directory)
 
 [Remove a directory](#step2--remove-a-directory)
+
 [Make a copy of a file](#step3-make-a-copy-of-a-file)
+
 [Move or rename a file](#step4-move-or-rename-a-file)
+
 [Create an empty file](#step5-create-an-empty-file)
+
 [Remove multiple files with a single command](#step6-remove-multiple-files-with-a-single-command)
+
 [Remove content from the folder without removing folder](#step7-create-multiple-foldersa-z-with-a-single-command)
+
 [Create multiple folder(a-z) with a single command](#step8-remove-content-from-the-folder-without-removing-folder)
 
 
