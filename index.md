@@ -3,6 +3,7 @@
 # Table of Contents
 
 [Create directory](#step-1--create-directory)
+
 [Remove a directory](#step2--remove-a-directory)
 [Make a copy of a file](#step3-make-a-copy-of-a-file)
 [Move or rename a file](#step4-move-or-rename-a-file)
