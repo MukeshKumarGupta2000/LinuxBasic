@@ -4,19 +4,19 @@
 
 * [Create directory](#step-1--create-directory)
 
-[Remove a directory](#step2--remove-a-directory)
+* [Remove a directory](#step2--remove-a-directory)
 
-[Make a copy of a file](#step3-make-a-copy-of-a-file)
+* [Make a copy of a file](#step3-make-a-copy-of-a-file)
 
-[Move or rename a file](#step4-move-or-rename-a-file)
+* [Move or rename a file](#step4-move-or-rename-a-file)
 
-[Create an empty file](#step5-create-an-empty-file)
+* [Create an empty file](#step5-create-an-empty-file)
 
-[Remove multiple files with a single command](#step6-remove-multiple-files-with-a-single-command)
+* [Remove multiple files with a single command](#step6-remove-multiple-files-with-a-single-command)
 
-[Remove content from the folder without removing folder](#step7-create-multiple-foldersa-z-with-a-single-command)
+* [Remove content from the folder without removing folder](#step7-create-multiple-foldersa-z-with-a-single-command)
 
-[Create multiple folder(a-z) with a single command](#step8-remove-content-from-the-folder-without-removing-folder)
+* [Create multiple folder(a-z) with a single command](#step8-remove-content-from-the-folder-without-removing-folder)
 
 
 
@@ -26,7 +26,6 @@
 ~~~
 sudo mkdir BasicLinux
 ~~~
-
 
 ![p3.png](p3.png)
 
@@ -78,9 +77,9 @@ mukesh@mukesh:~/Desktop$
 sudo cp -r /home/mukesh/Desktop/BasicLinux /home/mukesh/Desktop/Test/
 ~~~
 
-
 ![p5.png](p5.png)
 
+**Output**
 ~~~
 mukesh@mukesh:~/Desktop$ 
 mukesh@mukesh:~/Desktop$ ls
@@ -98,7 +97,6 @@ BasicLinux
 mukesh@mukesh:~/Desktop/Test$ 
 ~~~
 
-
 **cp:** This is the copy command in Linux, used to copy files or directories.
 
 **-r:** This option stands for "recursive." When used with cp, it allows the copying of directories and their contents recursively.
@@ -110,6 +108,10 @@ mukesh@mukesh:~/Desktop/Test$
 ## Step4:-Move or rename a file
 
 ![p6.png](p6.png)
+
+**Output**
+
+~~~
 mukesh@mukesh:~/Desktop$ 
 mukesh@mukesh:~/Desktop$ ls
 0001-24922.mp4  01.mp4  02.mp4  BasicLinux  BL_proxy  docsify_container  java  loadtest  Test
@@ -123,18 +125,15 @@ mukesh@mukesh:~/Desktop/Test$
 mukesh@mukesh:~/Desktop/Test$ ls
 BasicLinux
 mukesh@mukesh:~/Desktop/Test$ 
-
-mukesh@mukesh:~/Desktop/Test$ 
 mukesh@mukesh:~/Desktop/Test$ ls
 BasicLinux
-mukesh@mukesh:~/Desktop/Test$ 
 mukesh@mukesh:~/Desktop/Test$ 
 mukesh@mukesh:~/Desktop/Test$ sudo mv /home/mukesh/Desktop/Test/BasicLinux /home/mukesh/Desktop/Test/BasicLinuxCommand
 mukesh@mukesh:~/Desktop/Test$ 
 mukesh@mukesh:~/Desktop/Test$ ls
 BasicLinuxCommand
 mukesh@mukesh:~/Desktop/Test$ 
-
+~~~
 
 
 ## Step5:-Create an empty file
@@ -145,6 +144,9 @@ mukesh@mukesh:~/Desktop/Test$
 sudo touch index.html
 ~~~
 
+**Output**
+
+~~~
 mukesh@mukesh:~/Desktop/Test/BasicLinuxCommand$ 
 mukesh@mukesh:~/Desktop/Test/BasicLinuxCommand$ ls
 mukesh@mukesh:~/Desktop/Test/BasicLinuxCommand$ 
@@ -153,7 +155,7 @@ mukesh@mukesh:~/Desktop/Test/BasicLinuxCommand$
 mukesh@mukesh:~/Desktop/Test/BasicLinuxCommand$ ls
 index.html
 mukesh@mukesh:~/Desktop/Test/BasicLinuxCommand$ 
-
+~~~
 
 ## Step6:-Remove multiple files with a single command
 
@@ -162,6 +164,8 @@ mukesh@mukesh:~/Desktop/Test/BasicLinuxCommand$
 ~~~
 sudo rm -r multiplefile/
 ~~~
+
+**Output**
 ~~~
 mukesh@mukesh:~/Desktop$ ls
 0001-24922.mp4  01.mp4  02.mp4  BL_proxy  docsify_container  java  loadtest  multiplefile  Test
@@ -180,7 +184,6 @@ mukesh@mukesh:~/Desktop$ ls
 0001-24922.mp4  01.mp4  02.mp4  BL_proxy  docsify_container  java  loadtest  Test
 mukesh@mukesh:~/Desktop$ 
 mukesh@mukesh:~/Desktop$ 
-
 ~~~~
 
 
@@ -224,6 +227,8 @@ sudo rm -r /home/mukesh/Desktop/project/*
 ~~~
 
 ![p8.png](p8.png)
+
+**Output**
 
 ~~~
 mukesh@mukesh:~/Desktop/project$ sudo touch /home/mukesh/Desktop/project/index{1..5}.txt
