@@ -1,5 +1,9 @@
 # <p style="text-align: center;">LINUX Assignment 1</p> 
 ************************************************************************
+# Table of Contents
+
+* [ Create directory](#1- Create directory)
+* [Load testing](#2-load-testing)
 
 
 ## Step 1:- Create directory
